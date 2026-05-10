@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "codecs": [
+    {
+      "codec": "h264",
+      "directory": "h264",
+      "containers": ["mp4", "mov", "avi", "mkv", "flv", "m4v", "ts", "mts"],
+      "files": [
+        {"name": "01_airport.mp4",         "path": "h264/01_airport.mp4",          "container": "mp4",  "bytes":  9868467, "duration_seconds": 40.518821, "width":  720, "height": 1270, "frame_rate": "30/1"},
+        {"name": "01_pandas_muted.mp4",    "path": "h264/01_pandas_muted.mp4",     "container": "mp4",  "bytes": 12777018, "duration_seconds": 10.000000, "width": 1280, "height":  720, "frame_rate": "30/1"},
+        {"name": "02_airport.mov",         "path": "h264/02_airport.mov",          "container": "mov",  "bytes": 12437432, "duration_seconds": 40.519002, "width":  720, "height": 1270, "frame_rate": "30/1"},
+        {"name": "02_pandas_muted.mov",    "path": "h264/02_pandas_muted.mov",     "container": "mov",  "bytes":  2310867, "duration_seconds": 10.005000, "width": 1280, "height":  720, "frame_rate": "30/1"},
+        {"name": "04_airport.avi",         "path": "h264/04_airport.avi",          "container": "avi",  "bytes": 12477058, "duration_seconds": 40.588481, "width":  720, "height": 1270, "frame_rate": "30/1"},
+        {"name": "04_pandas_muted.avi",    "path": "h264/04_pandas_muted.avi",     "container": "avi",  "bytes":  2327040, "duration_seconds": 10.090667, "width": 1280, "height":  720, "frame_rate": "30/1"},
+        {"name": "05_airport.mkv",         "path": "h264/05_airport.mkv",          "container": "mkv",  "bytes":  9865759, "duration_seconds": 40.519000, "width":  720, "height": 1270, "frame_rate": "30/1"},
+        {"name": "05_pandas_muted.mkv",    "path": "h264/05_pandas_muted.mkv",     "container": "mkv",  "bytes": 12690860, "duration_seconds": 10.000000, "width": 1280, "height":  720, "frame_rate": "30/1"},
+        {"name": "07_airport.flv",         "path": "h264/07_airport.flv",          "container": "flv",  "bytes": 12744556, "duration_seconds": 40.586000, "width":  720, "height": 1270, "frame_rate": "30/1"},
+        {"name": "07_pandas_muted.flv",    "path": "h264/07_pandas_muted.flv",     "container": "flv",  "bytes":  2311956, "duration_seconds": 10.073000, "width": 1280, "height":  720, "frame_rate": "30/1"},
+        {"name": "09_airport.m4v",         "path": "h264/09_airport.m4v",          "container": "m4v",  "bytes":  9879236, "duration_seconds": 40.518821, "width":  720, "height": 1270, "frame_rate": "30/1"},
+        {"name": "09_pandas_muted.m4v",    "path": "h264/09_pandas_muted.m4v",     "container": "m4v",  "bytes": 12696517, "duration_seconds": 10.000000, "width": 1280, "height":  720, "frame_rate": "30/1"},
+        {"name": "10_airport.ts",          "path": "h264/10_airport.ts",           "container": "ts",   "bytes": 10407492, "duration_seconds": 40.500000, "width":  720, "height": 1270, "frame_rate": "30/1"},
+        {"name": "10_pandas_muted.ts",     "path": "h264/10_pandas_muted.ts",      "container": "ts",   "bytes": 13053216, "duration_seconds": 10.000000, "width": 1280, "height":  720, "frame_rate": "30/1"},
+        {"name": "11_airport.mts",         "path": "h264/11_airport.mts",          "container": "mts",  "bytes": 10629120, "duration_seconds": 40.500000, "width":  720, "height": 1270, "frame_rate": "30/1"},
+        {"name": "11_pandas_muted.mts",    "path": "h264/11_pandas_muted.mts",     "container": "mts",  "bytes": 13332480, "duration_seconds": 10.000000, "width": 1280, "height":  720, "frame_rate": "30/1"}
+      ]
+    },
+    {
+      "codec": "mpeg2video",
+      "directory": "mpeg2video",
+      "containers": ["mxf"],
+      "files": [
+        {"name": "03_airport.mxf",         "path": "mpeg2video/03_airport.mxf",      "container": "mxf",  "bytes": 75546217,  "duration_seconds": 40.500000, "width":  720, "height": 1270, "frame_rate": "30/1"},
+        {"name": "03_pandas_muted.mxf",    "path": "mpeg2video/03_pandas_muted.mxf", "container": "mxf",  "bytes":  33054277, "duration_seconds": 10.000000, "width": 1280, "height":  720, "frame_rate": "30/1"}
+      ]
+    },
+    {
+      "codec": "msmpeg4v3",
+      "directory": "msmpeg4v3",
+      "containers": ["wmv"],
+      "files": [
+        {"name": "06_airport.wmv",         "path": "msmpeg4v3/06_airport.wmv",      "container": "wmv",  "bytes": 54721175, "duration_seconds": 40.592000, "width":  720, "height": 1270, "frame_rate": "30/1"},
+        {"name": "06_pandas_muted.wmv",    "path": "msmpeg4v3/06_pandas_muted.wmv", "container": "wmv",  "bytes": 11332396, "duration_seconds": 10.086000, "width": 1280, "height":  720, "frame_rate": "30/1"}
+      ]
+    },
+    {
+      "codec": "vp9",
+      "directory": "vp9",
+      "containers": ["webm"],
+      "files": [
+        {"name": "08_airport.webm",        "path": "vp9/08_airport.webm",          "container": "webm", "bytes": 11274199, "duration_seconds": 40.526000, "width":  720, "height": 1270, "frame_rate": "30/1"},
+        {"name": "08_pandas_muted.webm",   "path": "vp9/08_pandas_muted.webm",     "container": "webm", "bytes":  2553582, "duration_seconds": 10.013000, "width": 1280, "height":  720, "frame_rate": "30/1"}
+      ]
+    }
+  ]
+}
